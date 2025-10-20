@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+  color: gold;
+  font-family: Poppins, sans-serif;
+}
+
+h1, h2, h3 {
+  color: gold;
+}
+
+.card {
+  background: linear-gradient(145deg, #111, #000);
+  border: 2px solid gold;
+  box-shadow: 0 0 20px rgba(255,215,0,0.3);
+  border-radius: 15px;
+}
+
+.btn-warning {
+  background-color: gold;
+  border-color: gold;
+  color: black;
+}
+
+.btn-warning:hover {
+  background-color: #ffcf33;
+}
+
+.btn-outline-light:hover {
+  background-color: gold;
+  color: black;
+}
+
+.list-group-item {
+  background-color: #111;
+  color: gold;
+  border: 1px solid gold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-group-item button {
+  color: gold;
+  border: 1px solid gold;
+}
+
+.list-group-item button:hover {
+  background-color: gold;
+  color: black;
+}

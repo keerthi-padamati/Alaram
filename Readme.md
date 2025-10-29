@@ -9,5 +9,11 @@ Easily set multiple alarms, choose your own sound files, and get notified when i
 - Add and manage multiple alarms  
 - Upload custom alarm sounds  
 - Modern gold-on-black theme with glowing UI  
-- Fully client-side, no backend required  
+- Fully client-side, no backend required
+
+## Technologies Used
+- HTML5  
+- CSS3  
+- Bootstrap 5  
+- JavaScript (ES6)
 

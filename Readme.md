@@ -21,6 +21,11 @@ Easily set multiple alarms, choose your own sound files, and get notified when i
 1. The live clock updates every second.  
 2. You can select a time and choose any audio file for your alarm.  
 3. When the time matches, the sound plays and a popup alert appears.  
-4. You can cancel individual alarms or clear all alarms easily.  
+4. You can cancel individual alarms or clear all alarms easily.
+
+## Browser Audio Restriction
+Browsers do not allow websites to play sound automatically without user interaction.  
+This is a privacy and spam control rule.  
+
 
 

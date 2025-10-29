@@ -25,7 +25,11 @@ Easily set multiple alarms, choose your own sound files, and get notified when i
 
 ## Browser Audio Restriction
 Browsers do not allow websites to play sound automatically without user interaction.  
-This is a privacy and spam control rule.  
+This is a privacy and spam control rule. 
+
+Because of this, the alarm sound will not start on its own unless the user has clicked or tapped on the page first.  
+After the first user interaction (like clicking the “Add Alarm” button), sounds can play automatically for the rest of the session.  
+
 
 
 

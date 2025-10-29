@@ -17,3 +17,10 @@ Easily set multiple alarms, choose your own sound files, and get notified when i
 - Bootstrap 5  
 - JavaScript (ES6)
 
+## How It Works
+1. The live clock updates every second.  
+2. You can select a time and choose any audio file for your alarm.  
+3. When the time matches, the sound plays and a popup alert appears.  
+4. You can cancel individual alarms or clear all alarms easily.  
+
+

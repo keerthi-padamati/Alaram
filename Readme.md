@@ -3,14 +3,14 @@
 A sleek and elegant web-based alarm clock built using **HTML, CSS, JavaScript, and Bootstrap 5**.  
 Easily set multiple alarms, choose your own sound files, and get notified when it’s time — with a touch of gold .
 
-
+---
 ## Features
 - Real-time digital clock display  
 - Add and manage multiple alarms  
 - Upload custom alarm sounds  
 - Modern gold-on-black theme with glowing UI  
 - Fully client-side, no backend required
-
+---
 ## Technologies Used
 - HTML5  
 - CSS3  
@@ -32,7 +32,7 @@ Because of this, the alarm sound will not start on its own unless the user has c
 After the first user interaction (like clicking the “Add Alarm” button), sounds can play automatically for the rest of the session.  
 
 ---
-##How to Run Locally
+## How to Run Locally
 1. Clone the repository.  
 2. Open the project folder.  
 3. Open the `index.html` file in any browser.

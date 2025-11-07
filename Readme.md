@@ -32,7 +32,10 @@ After the first user interaction (like clicking the “Add Alarm” button), sou
 
 ---
 ## How to Run Locally
-1. Clone the repository.  
+1. Clone the repository.
+ ```bash
+   https://github.com/keerthi-padamati/Alaram.git
+   ```
 2. Open the project folder.  
 3. Open the `index.html` file in any browser.
 

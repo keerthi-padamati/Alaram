@@ -41,9 +41,9 @@ After the first user interaction (like clicking the “Add Alarm” button), sou
 
 ---
 ## Future Enhancements
--- Snooze feature  
---- Built-in sound library  
---- Save alarms using localStorage  
+ Snooze feature  
+ Built-in sound library  
+ Save alarms using localStorage  
 
 
 

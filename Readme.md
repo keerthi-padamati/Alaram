@@ -31,6 +31,7 @@ After the first user interaction (like clicking the “Add Alarm” button), sou
 
 ---
 ## How to Run Locally
+
 1. Clone the repository.
  ```bash
    https://github.com/keerthi-padamati/Alaram.git
@@ -40,6 +41,7 @@ After the first user interaction (like clicking the “Add Alarm” button), sou
 
 ---
 ## Future Enhancements
+
  - Snooze feature  
  - Built-in sound library  
  - Save alarms using localStorage  

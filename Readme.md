@@ -21,6 +21,7 @@ A sleek and elegant web-based alarm clock built using **HTML, CSS, JavaScript, a
 3. When the time matches, the sound plays and a popup alert appears.  
 4. You can cancel individual alarms or clear all alarms easily.
 
+
 ## Browser Audio Restriction
 Browsers do not allow websites to play sound automatically without user interaction.  
 ***This is a privacy and spam control rule.*** 

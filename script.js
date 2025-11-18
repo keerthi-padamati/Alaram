@@ -4,7 +4,8 @@ let audio_file = document.getElementById("audio_file")
 let alarm_list = document.getElementById("alarm_list")
 let alarms = []
 
-function show_time() {
+function show_time()
+{
   let now = new Date()
   let time_str = now.toLocaleTimeString('en-US', { hour12: true })
   clock.textContent = time_str
@@ -39,7 +40,8 @@ document.getElementById("set_alarm").addEventListener("click", function() {
   r.readAsDataURL(f)
 })
 
-function show_alarms() {
+function show_alarms()
+{
   alarm_list.innerHTML = ""
   alarms.forEach((a, i) => {
     let li = document.createElement("li")
@@ -61,7 +63,8 @@ document.getElementById("clear_all").addEventListener("click", function() {
   alert("all alarms cleared")
 })
 
-function to12(t) {
+function to12(t)
+{
   let parts = t.split(":")
   let h = parseInt(parts[0])
   let m = parts[1]

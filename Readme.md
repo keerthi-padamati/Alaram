@@ -21,6 +21,7 @@ A sleek and elegant web-based alarm clock built using HTML, CSS, JavaScript, and
 ---
 
 ## How It Works
+
 1. The live clock updates every second.  
 2. You can select a time and choose any audio file for your alarm.  
 3. When the time matches, the sound plays and a popup alert appears.  

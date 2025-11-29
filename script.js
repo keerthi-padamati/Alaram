@@ -30,6 +30,7 @@ document.getElementById("set_alarm").addEventListener("click", function() {
     alert("please pick a time and sound")
     return
   }
+  
   let r = new FileReader()
   r.onload = function(e) {
     let a = {}
@@ -54,7 +55,8 @@ function show_alarms()
   })
 }
 
-function del_alarm(i) {
+function del_alarm(i)
+{
   alarms.splice(i, 1)
   show_alarms()
 }

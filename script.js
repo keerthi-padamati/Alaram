@@ -10,10 +10,11 @@ function show_time()
   let time_str = now.toLocaleTimeString('en-US', { hour12: true })
   clock.textContent = time_str
   alarms.forEach(a => {
-    if (!a.done && time_str === a.time) {
+    if (!a.done && time_str === a.time)
+    {
       let s = new Audio(a.sound)
       s.play()
-      alert("⏰ Alarm for " + a.time + " is ringing!")
+      alert(" Alarm for " + a.time + " is ringing!")
       a.done = true
     }
   })
@@ -24,7 +25,8 @@ setInterval(show_time, 1000)
 document.getElementById("set_alarm").addEventListener("click", function() {
   let t = alarm_time.value
   let f = audio_file.files[0]
-  if (!t || !f) {
+  if (!t || !f)
+  {
     alert("please pick a time and sound")
     return
   }

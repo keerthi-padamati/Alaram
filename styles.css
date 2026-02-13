@@ -5,8 +5,6 @@
     --glass-grey: #121212;
 }
 
-
-
 body {
     background-color: var(--obsidian-bg);
     color: #f0f0f0;
@@ -38,14 +36,13 @@ body {
     color: white;
 }
 
-
-
 .date_label_green {
     color: var(--emerald-primary);
     letter-spacing: 2px;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 0.8rem;
+    text-align: center;
 }
 
 .zone_badge_green {
@@ -76,6 +73,7 @@ body {
     font-weight: bold;
     font-size: 0.75rem;
     border-radius: 10px;
+    transition: 0.3s;
 }
 
 .nav_btn_green.active {
@@ -83,8 +81,6 @@ body {
     color: var(--emerald-primary);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
-
-
 
 .emerald_card {
     background: var(--glass-grey);
@@ -123,7 +119,8 @@ body {
     border-radius: 12px;
 }
 
-.item_row_green {
+/* Row items for Alarms and Laps */
+.item_row {
     background: #080808;
     padding: 12px;
     border-radius: 12px;
@@ -134,12 +131,11 @@ body {
     border-left: 3px solid var(--emerald-primary);
 }
 
-.trash_btn {
-    cursor: pointer;
-    color: #ff5555;
+.del_icon {
     background: none;
     border: none;
-    font-size: 1.1rem;
+    color: #ff5555;
+    cursor: pointer;
 }
 
 .scroll_engine {
@@ -159,10 +155,7 @@ body {
     color: var(--emerald-primary);
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 1px;
 }
-
-
 
 .notification_overlay {
     position: fixed;
@@ -172,7 +165,6 @@ body {
     align-items: center;
     justify-content: center;
     z-index: 1000;
-    text-align: center;
 }
 
 .overlay_box_green {
@@ -180,8 +172,7 @@ body {
     padding: 40px;
     border-radius: 30px;
     background: #0a0a0a;
+    text-align: center;
 }
 
-.hidden {
-    display: none !important;
-}
+.hidden { display: none !important; }

@@ -1,15 +1,14 @@
-:root {
-    --emerald-primary: #10b981;
-    --emerald-glow: rgba(16, 185, 129, 0.4);
-    --obsidian-bg: #050505;
-    --glass-grey: #121212;
+:root
+{
+    --emerald-glow: #10b981; /* Changed from Cyan to Emerald */
+    --carbon-black: #050505;
+    --panel-grey: #121212;
 }
 
-
-
-body {
-    background-color: var(--obsidian-bg);
-    color: #f0f0f0;
+body
+{
+    background-color: var(--carbon-black);
+    color: #e0e0e0;
     font-family: sans-serif;
     display: flex;
     justify-content: center;
@@ -17,169 +16,171 @@ body {
     min-height: 100vh;
 }
 
+
+
 .main_wrapper {
-    width: 100%;
-    max-width: 450px;
-    padding: 25px 15px;
+  width: 100%; 
+  max-width: 450px; 
+  padding: 25px 15px; 
 }
 
-.emerald_display {
-    font-size: 5rem;
-    font-weight: 800;
-    color: var(--emerald-primary);
+.primary_display
+{ 
+    font-size: 5rem; 
+    font-weight: 800; 
+    color: var(--emerald-glow); 
     text-align: center;
-    text-shadow: 0 0 20px var(--emerald-glow);
 }
 
-.secondary_display_green {
-    font-size: 3.5rem;
-    font-family: monospace;
+.secondary_display
+{ 
+  font-size: 3.5rem; 
+  font-family: monospace; 
+  font-weight: bold; 
+  color: white; 
+}
+
+.date_label {
+    color: var(--emerald-glow);
+    text-align: center;
     font-weight: bold;
-    color: white;
 }
 
-.date_label_green {
-    color: var(--emerald-primary);
-    letter-spacing: 2px;
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    text-align: center;
-}
 
-.zone_badge_green {
+
+.zone_badge 
+{
     background: rgba(16, 185, 129, 0.1);
-    color: var(--emerald-primary);
+    color: var(--emerald-glow);
     padding: 6px 16px;
     border-radius: 20px;
     font-size: 0.75rem;
     font-weight: bold;
-    border: 1px solid rgba(16, 185, 129, 0.2);
-    display: block;
-    margin: 10px auto;
-    width: fit-content;
+    display: inline-block;
 }
 
-.nav_bar_green {
-    display: flex;
-    background: var(--glass-grey);
-    border-radius: 14px;
-    padding: 5px;
-    gap: 5px;
+.nav_bar { 
+  display: flex; 
+  background: var(--panel-grey); 
+  border-radius: 12px; 
+  padding: 5px; 
+  gap: 5px; 
 }
 
-.nav_btn_green {
-    flex: 1;
-    background: none;
-    border: none;
-    color: #555;
-    padding: 10px;
-    font-weight: bold;
-    font-size: 0.75rem;
-    border-radius: 10px;
-    transition: 0.3s;
-}
-
-.nav_btn_green.active {
-    background: #1a1a1a;
-    color: var(--emerald-primary);
-}
-
-.emerald_card {
-    background: var(--glass-grey);
-    padding: 25px;
-    border-radius: 24px;
-    border: 1px solid #222;
-}
-
-.custom_field_green {
-    background: #000 !important;
-    border: 1px solid #333 !important;
-    color: white !important;
-}
-
-.btn_emerald_action {
-    background: var(--emerald-primary);
-    color: #000;
-    border: none;
-    padding: 14px;
-    border-radius: 12px;
-    font-weight: 900;
-}
-
-.btn_danger_emerald {
-    background: #2d0a0a;
-    color: #ff5555;
-    border-radius: 12px;
-    border: none;
-}
-
-.btn_outline_emerald {
-    background: none;
-    border: 1px solid #333;
-    color: #888;
-    border-radius: 12px;
+.nav_btn {
+  flex: 1;
+  background: none;
+  border: none;
+  color: #555;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 0.75rem;
 }
 
 
 
-.item_row_green {
-    background: #080808;
-    padding: 12px;
-    border-radius: 12px;
-    margin-bottom: 8px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-left: 3px solid var(--emerald-primary);
+.nav_btn.active {
+  background: #1a1a1a;
+  color: var(--emerald-glow);
+  border-radius: 8px;
+}
+
+.glass_card {
+  background: var(--panel-grey);
+  padding: 25px;
+  border-radius: 24px;
+  border: 1px solid #222;
+}
+
+.custom_field {
+  background: #000 !important;
+  border: 1px solid #333 !important;
+  color: white !important;
+}
+
+.btn_cyan_pro {
+  background: var(--emerald-glow);
+  color: #000;
+  border: none;
+  padding: 14px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+
+
+.btn_danger_pro {
+  background: #2d0a0a;
+  color: #ff5555;
+  border: none;
+  border-radius: 12px;
+}
+
+.btn_outline_pro {
+  background: none;
+  border: 1px solid #333;
+  color: #888;
+  border-radius: 12px;
+}
+
+.item_row {
+  background: #050505;
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #1a1a1a;
 }
 
 .del_icon {
-    background: none;
-    border: none;
-    color: #ff5555;
-    cursor: pointer;
+  cursor: pointer;
+  color: #ff5555;
+  font-size: 1.2rem;
+  background: none;
+  border: none;
 }
 
-.scroll_engine {
-    max-height: 200px;
-    overflow-y: auto;
+.scroll_box {
+  max-height: 200px;
+  overflow-y: auto;
 }
 
-.scroll_engine::-webkit-scrollbar { 
-    width: 3px;
-}
-.scroll_engine::-webkit-scrollbar-thumb 
-{
-    background: var(--emerald-primary); 
+.scroll_box::-webkit-scrollbar {
+  width: 3px;
 }
 
-.dev_name_green { 
-    color: var(--emerald-primary); 
-    font-weight: bold;
+.scroll_box::-webkit-scrollbar-thumb {
+  background: var(--emerald-glow);
 }
 
-
-
+.dev_name {
+  color: var(--emerald-glow);
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
 .notification_overlay {
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.98);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1000;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.97);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  text-align: center;
 }
 
-.overlay_box_green {
-    border: 1px solid var(--emerald-primary);
-    padding: 40px;
-    border-radius: 30px;
-    background: #0a0a0a;
-    text-align: center;
+
+
+.overlay_box {
+    border: 1px solid var(--emerald-glow);
+    padding: 30px;
+    border-radius: 20px;
+    background: #111;
 }
 
-.hidden { 
-    display: none !important; 
-        }
+.hidden {
+  display: none !important;
+}

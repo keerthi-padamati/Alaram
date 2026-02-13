@@ -5,10 +5,12 @@
     --glass-grey: #121212;
 }
 
+
+
 body {
     background-color: var(--obsidian-bg);
     color: #f0f0f0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-family: sans-serif;
     display: flex;
     justify-content: center;
     margin: 0;
@@ -53,7 +55,9 @@ body {
     font-size: 0.75rem;
     font-weight: bold;
     border: 1px solid rgba(16, 185, 129, 0.2);
-    display: inline-block;
+    display: block;
+    margin: 10px auto;
+    width: fit-content;
 }
 
 .nav_bar_green {
@@ -79,7 +83,6 @@ body {
 .nav_btn_green.active {
     background: #1a1a1a;
     color: var(--emerald-primary);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
 .emerald_card {
@@ -93,7 +96,6 @@ body {
     background: #000 !important;
     border: 1px solid #333 !important;
     color: white !important;
-    font-size: 0.9rem;
 }
 
 .btn_emerald_action {
@@ -108,8 +110,8 @@ body {
 .btn_danger_emerald {
     background: #2d0a0a;
     color: #ff5555;
-    border: 1px solid #441a1a;
     border-radius: 12px;
+    border: none;
 }
 
 .btn_outline_emerald {
@@ -119,8 +121,9 @@ body {
     border-radius: 12px;
 }
 
-/* Row items for Alarms and Laps */
-.item_row {
+
+
+.item_row_green {
     background: #080808;
     padding: 12px;
     border-radius: 12px;
@@ -143,19 +146,21 @@ body {
     overflow-y: auto;
 }
 
-.scroll_engine::-webkit-scrollbar {
+.scroll_engine::-webkit-scrollbar { 
     width: 3px;
 }
-
-.scroll_engine::-webkit-scrollbar-thumb {
-    background: var(--emerald-primary);
+.scroll_engine::-webkit-scrollbar-thumb 
+{
+    background: var(--emerald-primary); 
 }
 
-.dev_name_green {
-    color: var(--emerald-primary);
+.dev_name_green { 
+    color: var(--emerald-primary); 
     font-weight: bold;
-    text-transform: uppercase;
 }
+
+
+
 
 .notification_overlay {
     position: fixed;
@@ -175,4 +180,6 @@ body {
     text-align: center;
 }
 
-.hidden { display: none !important; }
+.hidden { 
+    display: none !important; 
+        }
